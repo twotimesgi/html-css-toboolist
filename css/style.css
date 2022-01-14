@@ -14,6 +14,7 @@ header{
 
 body{
     background-color: rgb(246, 248, 249);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header__logo{
@@ -25,7 +26,6 @@ body{
 
 .header__logo-text{
     display: inline;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 30pt;
 }
@@ -62,4 +62,72 @@ button{
     background-color: white;
     color: lightgray;
     border: 1px solid lightgrey;
+}
+
+.container__main{
+    padding: 30px 40px 15px 40px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.task{
+    line-height: 20px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+.task__icon{
+    border-radius: 100%;
+    border: 1px solid white;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
+    font-size: 8pt;
+}
+.task__icon--check{
+    color: green;
+    border-color: green;
+}
+
+.task__icon--cross{
+    border-color:red;
+    color: red;
+}
+
+.task__text{
+    font-size: 17px;
+}
+
+.task__label{
+    font-size: 12px;
+    border-radius: 15px;
+    display: inline-block;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.task__label--editorial{
+    background-color: rgb(95, 170, 228);
+}
+.task__label--q1{
+    background-color: rgb(150, 119, 221);
+}
+.task__label--recruiting{
+    background-color: rgb(121, 190, 170);
+}
+.task__label--mobile{
+    background-color: rgb(231, 161, 75);
+}
+.task__label--website{
+    background-color: rgb(203, 107, 159);
+}
+.task__label--sales{
+    background-color: rgb(181, 199, 73);
 }
