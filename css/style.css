@@ -29,3 +29,37 @@ body{
     font-weight: 800;
     font-size: 30pt;
 }
+
+.container{
+    background-color: white;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.container__top{
+    width: 100%;
+    border-bottom: lightgray 1px solid;
+    padding: 20px 40px 15px 40px;
+}
+
+button{
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: 0;
+}
+
+.add-task{
+    background-color: #61aceb;
+    color: white;
+    border: 1px solid #61aceb;
+}
+
+.add-section{
+    background-color: white;
+    color: lightgray;
+    border: 1px solid lightgrey;
+}
